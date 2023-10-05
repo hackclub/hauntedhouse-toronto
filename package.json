@@ -1,5 +1,7 @@
 {
-  "private": true,
+  "name": "",
+  "type": "module",
+  "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -8,9 +10,7 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/vercel": "3.8.2",
-    "astro": "^2.10.14",
-    "react": "18.2.0",
-    "web-vitals": "^3.3.1"
+    "@astrojs/vercel": "^5.0.2",
+    "astro": "^3.2.3"
   }
 }
