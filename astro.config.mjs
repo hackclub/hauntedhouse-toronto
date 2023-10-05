@@ -10,5 +10,7 @@ export default defineConfig({
   adapter: vercel({
     imageService: true
   }),
-  integrations: [svelte(), tailwind()]
+  integrations: [svelte(), tailwind({
+    applyBaseStyles: true
+  })]
 });
