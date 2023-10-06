@@ -11,6 +11,10 @@ module.exports = {
 			fontFamily: {
 				'wack': ['Wack Club Sans', 'sans-serif'],
 				'josefin': ['Josefin Sans', 'sans-serif']
+			},
+			screens: {
+				xs: '475px',
+				'2xs': '375px'
 			}
 		},
 	},

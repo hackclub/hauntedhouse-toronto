@@ -6,16 +6,16 @@ import Layout from "../layouts/Layout.astro";
   title="Trillium Hacks - Toronto's largest in-person high school hackathon."
 >
   <main>
-    <div class="bg-trillium-green flex py-32 text-white px-8">
+    <div class="bg-trillium-green flex py-24 md:py-32 text-white px-8">
       <div class="max-w-[800px] mx-auto flex-auto space-y-8">
-        <h1 class="font-wack text-trillium-yellow text-9xl">
+        <h1 class="font-wack text-trillium-yellow text-6xl 2xs:text-7xl xs:text-8xl md:text-9xl">
           Trillium<br />
            Hacks
         </h1>
-        <h2 class="text-5xl font-medium">
+        <h2 class="text-2xl 2xs:text-3xl xs:text-4xl md:text-5xl font-medium">
           Toronto's largest in-person high-school hackathon.
         </h2>
-        <div class="flex space-x-3">
+        <div class="flex space-x-1 2xs:space-x-2 md:space-x-3">
           <svg
             fill-rule="evenodd"
             clip-rule="evenodd"
@@ -26,10 +26,8 @@ import Layout from "../layouts/Layout.astro";
             viewbox="0 0 32 32"
             preserveaspectratio="xMidYMid meet"
             fill="currentColor"
-            width="52"
-            height="52"
             title="event-code"
-            class="inline -mt-1"
+            class="inline -mt-1 h-[38px] w-[38px] xs:h-[46px] xs:w-[46px] md:h-[52px] md:w-[52px]"
           >
             <g>
               <path
@@ -42,15 +40,15 @@ import Layout from "../layouts/Layout.astro";
               ></path>
             </g></svg
           >
-          <p class="inline my-auto text-3xl">Spring 2024 - Coming soon!</p>
+          <p class="inline my-auto text-lg 2xs:text-xl xs:text-2xl md:text-3xl">Spring 2024 - Coming soon!</p>
         </div>
       </div>
     </div>
-    <div class="flex py-32 px-8">
-      <div class="max-w-[800px] mx-auto flex-auto space-y-20 flex flex-col">
-        <div class="space-y-6">
-          <h3 class="text-5xl font-semibold">What is it?</h3>
-          <p class="text-3xl font-medium">
+    <div class="flex py-16 xs:py-24 md:py-32 px-8">
+      <div class="max-w-[800px] mx-auto flex-auto space-y-10 xs:space-y-16 md:space-y-20 flex flex-col">
+        <div class="space-y-2 xs:space-y-4 md:space-y-6">
+          <h3 class="text-2xl 2xs:text-3xl xs:text-4xl lg:text-5xl font-semibold">What is it?</h3>
+          <p class="text-lg 2xs:text-xl xs:text-2xl lg:text-3xl font-medium">
             <span class="text-trillium-green">Trillium Hacks</span> is a
             in-person event where high-schoolers from across Ontario & beyond, <span
               class="text-trillium-green">regardless of experience</span
@@ -64,11 +62,11 @@ import Layout from "../layouts/Layout.astro";
             >!
           </p>
         </div>
-        <div class="border-2 border-gray-300 w-80 mx-auto"></div>
-        <div class="space-y-14">
-          <div class="space-y-6">
-            <h3 class="text-5xl font-semibold">Interested?</h3>
-            <p class="text-3xl font-medium">
+        <div class="border-2 border-gray-300 w-52 xs:w-80 mx-auto"></div>
+        <div class="space-y-6 xs:space-y-8 md:space-y-10 lg:space-y-14">
+          <div class="space-y-2 xs:space-y-4 md:space-y-6">
+            <h3 class="text-2xl 2xs:text-3xl xs:text-4xl lg:text-5xl font-semibold">Interested?</h3>
+            <p class="text-lg 2xs:text-xl xs:text-2xl lg:text-3xl font-medium">
               Reach out to us at <a
                 class="text-trillium-green hover:underline"
                 href="mailto:team@trilliumhacks.com"
@@ -82,7 +80,7 @@ import Layout from "../layouts/Layout.astro";
             accept-charset="utf-8"
             class="space-y-4"
           >
-            <p class="text-3xl">
+            <p class="text-lg 2xs:text-xl xs:text-2xl lg:text-3xl">
               Join the mailing list! Get alerts about the event and when sign
               ups open up from <span class="text-trillium-green"
                 >Trillium Hacks</span
@@ -90,7 +88,7 @@ import Layout from "../layouts/Layout.astro";
             </p>
             <div class="space-y-4">
               <input
-                class="border-trillium-green outline-none border-4 w-full text-3xl px-6 py-4 placeholder-gray-400 motion-safe:focus:ring ring-trillium-green/50 motion-safe:transition-all"
+                class="border-trillium-green outline-none border-[3px] xs:border-4 w-full text-lg 2xs:text-xl xs:text-2xl lg:text-3xl px-4 xs:px-6 py-2 xs:py-4 placeholder-gray-400 motion-safe:focus:ring ring-trillium-green/50 motion-safe:transition-all"
                 type="email"
                 name="email"
                 id="email"
@@ -111,10 +109,10 @@ import Layout from "../layouts/Layout.astro";
                   type="submit"
                   name="submit"
                   id="submit"
-                  class="text-3xl bg-trillium-green text-white py-4 w-full text-center border-4 border-trillium-green motion-safe:active:text-trillium-yellow"
+                  class="text-lg 2xs:text-xl xs:text-2xl lg:text-3xl bg-trillium-green text-white py-2 xs:py-4 w-full text-center border-[3px] xs:border-4 border-trillium-green motion-safe:active:text-trillium-yellow"
                   value="Sign up for updates!"
                 />
-                <p class="text-xl">
+                <p class="text-sm 2xs:text-base xs:text-lg lg:text-xl">
                   We do not use trackers and we will never share your email to
                   3-rd parties.
                 </p>
@@ -122,29 +120,31 @@ import Layout from "../layouts/Layout.astro";
             </div>
           </form>
         </div>
-        <div class="border-2 border-gray-300 w-80 mx-auto"></div>
-        <div class="space-y-12">
-          <div class="space-y-6">
-            <h3 class="text-5xl font-semibold">Help us make an impact</h3>
-            <p class="text-3xl font-medium">
+        <div class="border-2 border-gray-300 w-52 xs:w-80 mx-auto"></div>
+        <div class="space-y-6 xs:space-y-8 md:space-y-10 lg:space-y-14">
+          <div class="space-y-2 xs:space-y-4 md:space-y-6">
+            <h3 class="text-2xl 2xs:text-3xl xs:text-4xl lg:text-5xl font-semibold">Help us make an impact</h3>
+            <p class="text-lg 2xs:text-xl xs:text-2xl lg:text-3xl font-medium">
               Events like these are not possible without the <span
                 class="text-trillium-green">generous support of sponsors</span
               >.
             </p>
           </div>
-          <div
-            class="text-3xl bg-trillium-green text-white py-4 w-full text-center border-4 border-trillium-green motion-safe:active:text-trillium-yellow"
-          >
-            <a href="mailto:team@trilliumhacks.com" target="_blank"
-              >Considering a sponsorship? Let's chat!</a
-            >
+          <div>
+            <a href="mailto:team@trilliumhacks.com" target="_blank">
+              <p
+                class="text-lg 2xs:text-xl xs:text-2xl lg:text-3xl bg-trillium-green text-white py-2 xs:py-4 w-full text-center border-[3px] xs:border-4 border-trillium-green motion-safe:active:text-trillium-yellow"
+              >
+              Considering a sponsorship? Let's chat!
+              </p>
+            </a>
           </div>
         </div>
       </div>
     </div>
   </main>
   <footer>
-    <div class="flex px-8 text-center py-4">
+    <div class="flex px-8 text-center py-2 xs:py-4 text-xs md:text-base">
       <div class="max-w-[800px] mx-auto flex-auto">
         <p>This site is open sourced on <a class="hover:underline" href="https://github.com/Trillium-hacks/site" target="_blank">GitHub</a>.</p>
         <p>Made with <span class="text-pink-500">❤</span> by Sam Liu and the Trillium Hacks Team.</p>
