@@ -10,11 +10,18 @@ const { title } = Astro.props;
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="Astro description" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
+    
     <title>{title}</title>
+    <meta name="description" content="Toronto's largest in-person high school hackathon." />
+
+    <meta name="geo.region" content="CA-ON" />
+    <meta name="geo.placename" content="Toronto" />
+    <meta name="geo.position" content="43.653482;-79.383935" />
+    <meta name="ICBM" content="43.653482, -79.383935" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
