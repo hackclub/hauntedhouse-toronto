@@ -4,13 +4,14 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
-				'light-trillium-green': '#edfff7',
-				'trillium-yellow': '#ffffb4',
-				'trillium-green': '#2e9568'
+				'light-haunted-orange': '#f5b799',
+				'trillium-yellow': '#fefae0',
+				'haunted-orange': '#eb6424'
 			},
 			fontFamily: {
 				'wack': ['Wack Club Sans', 'sans-serif'],
-				'josefin': ['Josefin Sans', 'sans-serif']
+				'josefin': ['Josefin Sans', 'sans-serif'],
+				'freight': ['The Fright House', 'sans-serif']
 			},
 			screens: {
 				xs: '475px',
