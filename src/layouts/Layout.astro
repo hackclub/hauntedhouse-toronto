@@ -18,9 +18,7 @@ const { title } = Astro.props;
     <title>{title}</title>
     <meta
       name="description"
-      content="
-Haunted House Toronto is a Halloween themed mini hackathon for high schoolers in the GTA, organized by Hack Club! We'll have food, prizes, and more!
-
+      content="Haunted House Toronto is a Halloween themed mini hackathon for high schoolers in the GTA, organized by Hack Club! We'll have food, prizes, and more!"
     />
 
     <meta name="geo.region" content="CA-ON" />
@@ -36,7 +34,7 @@ Haunted House Toronto is a Halloween themed mini hackathon for high schoolers in
     />
     <slot name="head" />
   </head>
-  <body class="bg-light-haunted-orange">
+  <body class="bg-orange-100">
     <slot />
   </body>
 </html>
@@ -55,7 +53,15 @@ Haunted House Toronto is a Halloween themed mini hackathon for high schoolers in
     font-display: swap;
   }
 
-  p{
+  @font-face {
+    font-family: "The Fright House";
+    src: url("/fonts/TheFrightHouse.ttf");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  p {
     font-weight: normal !important;
   }
 </style>

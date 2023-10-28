@@ -11,7 +11,7 @@ module.exports = {
 			fontFamily: {
 				'wack': ['Wack Club Sans', 'sans-serif'],
 				'josefin': ['Josefin Sans', 'sans-serif'],
-				'freight': ['The Fright House', 'sans-serif']
+				'fright': ['The Fright House', 'sans-serif']
 			},
 			screens: {
 				xs: '475px',
