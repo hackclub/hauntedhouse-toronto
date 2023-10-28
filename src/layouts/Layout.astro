@@ -18,7 +18,9 @@ const { title } = Astro.props;
     <title>{title}</title>
     <meta
       name="description"
-      content="Trillium Hacks is an in-person event where high schoolers come together for a day of learning, making and fun. Turn ideas into reality at Trillium Hacks!"
+      content="
+Haunted House Toronto is a Halloween themed mini hackathon for high schoolers in the GTA, organized by Hack Club! We'll have food, prizes, and more!
+
     />
 
     <meta name="geo.region" content="CA-ON" />
@@ -34,7 +36,7 @@ const { title } = Astro.props;
     />
     <slot name="head" />
   </head>
-  <body class="bg-light-haunted-orange font-josefin">
+  <body class="bg-light-haunted-orange">
     <slot />
   </body>
 </html>
@@ -51,5 +53,9 @@ const { title } = Astro.props;
     font-weight: normal;
     font-style: normal;
     font-display: swap;
+  }
+
+  p{
+    font-weight: normal !important;
   }
 </style>
